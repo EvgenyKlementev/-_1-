@@ -7,7 +7,7 @@
 
 int Size;
 Console.WriteLine("Enter number: ");
-String strNumber=Console.ReadLine();
+String? strNumber=Console.ReadLine();
 int number=Convert.ToInt32(strNumber);
 Size=number;
 
