@@ -7,15 +7,15 @@
 
 
 Console.WriteLine("Enter numberA: ");
-String strNumberA=Console.ReadLine();
+String? strNumberA=Console.ReadLine();
 int numberA=Convert.ToInt32(strNumberA);
 
 Console.WriteLine("Enter numberB: ");
-String strNumberB=Console.ReadLine();
+String? strNumberB=Console.ReadLine();
 int numberB=Convert.ToInt32(strNumberB);
 
 Console.WriteLine("Enter numberC: ");
-String strNumberC=Console.ReadLine();
+String? strNumberC=Console.ReadLine();
 int numberC=Convert.ToInt32(strNumberC);
 
 
